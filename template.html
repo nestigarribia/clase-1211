@@ -1,0 +1,45 @@
+<template id="mi-menu">
+    <style>
+     
+@media (max-width: 600px){
+ div {
+     display: none
+ }
+}
+
+@media (min-width: 600px){
+    .item {
+        display: flex;
+        width: 100px;
+        height: 40px;
+        text-align: right;
+        font-size: 12px;
+    }
+    .container {
+        flex-direction: row;
+        background-color: red;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    img {
+        display: none
+    }
+
+}
+    </style>
+
+<h1>Ejercicio 2 - Clase 11</h1>
+<div class="container">
+        <div class="item"><h2>Home</h2></div>
+        <div class="item"><h2>About</h2></div>
+        <div class="item"><h2>Products</h2></div>
+        <div class="item"><h2>Contact</h2></div>
+</div>
+
+<img src="hello_kitty.jpg">
+
+
+</template>

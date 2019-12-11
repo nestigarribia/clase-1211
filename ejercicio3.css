@@ -1,0 +1,46 @@
+.container1 {
+    display: grid;
+    justify-content: stretch;
+    grid-template-areas:
+    'header header header'
+    'aside1 bla aside2'
+    'footer footer footer';
+    font-size: 12px;
+}
+
+
+.item1 {
+    grid-area: header;
+    background-color:salmon;
+    color: black;
+    text-align: center;
+}
+
+.item2 {
+    grid-area: aside1;
+    background-color:yellow;
+    color: black;
+    text-align: center;
+
+}
+
+.item3 {
+    grid-area: bla;
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+}
+
+.item4 {
+    grid-area: aside2;
+    background-color: fuchsia;
+    color: black;
+    text-align: center;
+}
+
+.item5 {
+    grid-area: footer;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
